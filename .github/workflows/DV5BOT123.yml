@@ -37,7 +37,7 @@ jobs:
         cd private-repo
         git config user.name "github-actions[bot]"
         git config user.email "github-actions[bot]@users.noreply.github.com"
-        if git status --porcelain | grep .; then
+        if git status --porcelain | grep . > /dev/null; then
           git add . > /dev/null 2>&1
           git commit -m "Auto update from GitHub Actions at $(date)" > /dev/null 2>&1
           git push origin main > /dev/null 2>&1
@@ -47,14 +47,16 @@ jobs:
       run: |
         git config --global user.name "github-actions[bot]"
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
-        git clone https://x-access-token:${{ secrets.PRIVATE_REPO_PAT }}@github.com/BILILICHENG/DV5.git public-repo
-        ls -la private-repo/
-        ls -la private-repo/onlinejiami.txt
+        git clone https://x-access-token:${{ secrets.PRIVATE_REPO_PAT }}@github.com/BILILICHENG/DV5.git public-repo > /dev/null 2>&1
         cp private-repo/onlinejiami.txt public-repo/onlinejiami.txt
         cd public-repo
-        git add onlinejiami.txt
-        git commit -m "Update onlinejiami.txt at $(date)"
-        git push origin main
+        git add onlinejiami.txt > /dev/null 2>&1
+        if git diff --staged --quiet > /dev/null 2>&1; then
+          :
+        else
+          git commit -m "Update onlinejiami.txt at $(date)" > /dev/null 2>&1
+          git push origin main > /dev/null 2>&1
+        fi
 
     - name: Clean up
       run: |
