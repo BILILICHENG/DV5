@@ -40,6 +40,7 @@ jobs:
         if git status --porcelain | grep .; then
           git add . > /dev/null 2>&1
           git commit -m "Auto update from GitHub Actions at $(date)" > /dev/null 2>&1
+          git pull --rebase origin master > /dev/null 2>&1
           git push origin master > /dev/null 2>&1
         fi
 
