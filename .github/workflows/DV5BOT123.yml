@@ -32,16 +32,6 @@ jobs:
         cd private-repo
         python bot.py > /dev/null 2>&1
 
-    - name: Push changes to private repo
-      run: |
-        cd private-repo
-        git config user.name "github-actions[bot]"
-        git config user.email "github-actions[bot]@users.noreply.github.com"
-        if git status --porcelain | grep .; then
-          git add . > /dev/null 2>&1
-          git commit -m "Auto update from GitHub Actions at $(date)" > /dev/null 2>&1
-          git push origin main > /dev/null 2>&1
-        fi
 
     - name: Sync onlinejiami.txt to public repo
       run: |
@@ -53,6 +43,18 @@ jobs:
         git add onlinejiami.txt > /dev/null 2>&1
         git commit -m "Update onlinejiami.txt at $(date)" > /dev/null 2>&1
         git push origin main > /dev/null 2>&1
+        
+
+    - name: Push changes to private repo
+      run: |
+        cd private-repo
+        git config user.name "github-actions[bot]"
+        git config user.email "github-actions[bot]@users.noreply.github.com"
+        if git status --porcelain | grep .; then
+          git add . > /dev/null 2>&1
+          git commit -m "Auto update from GitHub Actions at $(date)" > /dev/null 2>&1
+          git push origin main > /dev/null 2>&1
+        fi
 
     - name: Clean up
       run: |
