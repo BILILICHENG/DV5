@@ -37,7 +37,7 @@ jobs:
         cd private-repo
         git config user.name "github-actions[bot]"
         git config user.email "github-actions[bot]@users.noreply.github.com"
-        if git status --porcelain | grep . > /dev/null 2>&1; then
+        if git status --porcelain | grep . > /dev/null; then  # 只重定向输出，不重定向退出码
           git add . > /dev/null 2>&1
           git commit -m "Auto update from GitHub Actions at $(date)" > /dev/null 2>&1
           git push origin main > /dev/null 2>&1
