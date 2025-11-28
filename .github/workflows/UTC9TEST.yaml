@@ -1,0 +1,34 @@
+name: UpdateTestInfoDate
+
+on:
+  schedule:
+    - cron: '0 15 * * *'
+  workflow_dispatch:
+
+jobs:
+  update-date:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Update date in testinfo file
+      run: |
+        CURRENT_DATE=$(TZ=Asia/Tokyo date +%Y%m%d)
+        tail -n +2 "test9/testinfo" > temp_file.txt
+        echo "$CURRENT_DATE" > "test9/testinfo"
+        cat temp_file.txt >> "test9/testinfo"
+        rm -f temp_file.txt
+
+    - name: Commit and push changes
+      run: |
+        git config user.name "github-actions[bot]"
+        git config user.email "github-actions[bot]@users.noreply.github.com"
+        git add test9/testinfo
+        if ! git diff --staged --quiet; then
+          git commit -m "Update date in testinfo" > /dev/null 2>&1
+          git push > /dev/null 2>&1
+        fi
