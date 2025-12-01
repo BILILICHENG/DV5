@@ -465,10 +465,126 @@ Twitter：20070615.xyz/x
 §¤§特邀开发人员
 早期开发团队成员
 ¤¤¤
-LI_CHENG
+Name = LI_CHENG
+
+该成员为洪树电竞科技创始人
+
+工作板块：
+洪树电竞科技旗下的所有项目
+
+主要职责
+1.Unity（逻辑、UI、场景等）
+2.Blender
+3.C4D
+4.PS
+5.人员管理
+6.社区管理
+7.其他
+
+关键贡献
+1.无
+
+顶级管理对该用户的评价
+LI_CHENG：无
+
+个人感想或寄语
+Null
+
 §¤§
-123
+Name = ディ#kei
+
+工作板块：
+1.Test 3
+2.Test 9
+
+主要职责
+1.韩语翻译
+2.综合测试
+
+关键贡献
+1.韩国本地化支持！
+2.有效的测试反馈结果！
+
+顶级管理对该用户的评价
+
+LI_CHENG：
+An excellent volunteer with high translation efficiency and highly effective test feedback.
+Made a significant contribution to the calibration work.
+
+个人感想或寄语
+Null
+
 §¤§
-456
+Name = さて
+
+工作板块：
+1.Test 3
+2.Test 9
+
+主要职责
+1.综合测试
+
+关键贡献
+1.有效的测试反馈结果！
+
+顶级管理对该用户的评价
+
+LI_CHENG：
+A skilled professional dancer who provided highly valuable data during early testing.
+
+个人感想或寄语
+Null
+
 §¤§
-789
+Name = GG33TRR
+
+工作板块：
+1.Test 3
+2.Test 9
+
+主要职责
+1.繁体中文翻译
+2.综合测试
+
+关键贡献
+1.台湾本地化支持！
+
+顶级管理对该用户的评价
+
+LI_CHENG：
+Made meaningful contributions to Taiwan localization and consistently provided clear, reliable testing feedback.
+
+个人感想或寄语
+Null
+
+§¤§
+Name = 小林
+
+工作板块：
+1.Test 3
+2.Test 9
+
+主要职责
+1.早期内核开发
+2.综合测试
+
+关键贡献
+1.在早期为Test 3制作关键源文件转换脚本
+2.有效的测试反馈结果！
+
+顶级管理对该用户的评价
+
+LI_CHENG：
+Made a key contribution during the early phase by handling source file conversion with accuracy and reliability.
+
+个人感想或寄语
+Null
+
+¤¤¤洪树电竞科技
+¤¤¤返回
+¤¤¤返回
+¤¤¤
+这里是Test 3的介绍
+
+¤¤¤
+这里是Test 9的介绍
