@@ -32,11 +32,6 @@ jobs:
         cd private-repo 
         python bot.py > /dev/null 2>&1 
 
-    - name: Run vrchat_users_batch.py 
-      run: | 
-        cd private-repo 
-        python vrchat_users_batch.py > /dev/null 2>&1 
-
     - name: Push changes to private repo 
       run: | 
         cd private-repo 
@@ -61,20 +56,7 @@ jobs:
         else 
           git commit -m "Update onlinejiami.txt at $(date)" > /dev/null 2>&1 
           git push origin main > /dev/null 2>&1 
-        fi 
-
-    - name: Sync testinfo to public repo 
-      run: | 
-        mkdir -p public-repo/test9 > /dev/null 2>&1 
-        cp private-repo/testinfo public-repo/test9/testinfo > /dev/null 2>&1 
-        cd public-repo 
-        git add test9/testinfo > /dev/null 2>&1 
-        if git diff --staged --quiet > /dev/null 2>&1; then 
-          : 
-        else 
-          git commit -m "Update testinfo at $(date)" > /dev/null 2>&1 
-          git push origin main > /dev/null 2>&1 
-        fi 
+        fi
 
     - name: Clean up 
       run: | 
