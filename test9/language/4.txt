@@ -1,0 +1,394 @@
+English Translator:
+¤¤¤Introduction and other information:
+¤¤¤
+
+【DanceVrush】Player Friendly Agreement (Full Version)
+Version 0.02 (Official Release)
+Last Updated: November 28, 2025
+
+【!!! Important Notice !!!】
+While this agreement is not legally binding, it represents the mutual commitment and foundation of trust between the development team and players.
+All time calculations are based on the official receipt confirmation from the development team. In cases of force majeure, separate notifications will be issued.
+
+Dear Player Friends,
+
+Welcome to DanceVrush, a vibrant music and dance community! We are a group of developers passionate about music games, who created this VR music dance experience out of our enthusiasm for dance games and respect for the original work. To ensure everyone can enjoy a pleasant gaming experience while protecting the legitimate rights and interests of all parties involved, we have prepared this detailed agreement explanation.
+
+1. Basic Agreement
+1.1 DanceVrush is a multiplayer virtual reality music and dance game developed based on the VRChat platform.
+1.2 This game is suitable for players aged 16 and above. Entering the game signifies that you fully understand and agree to all terms of this agreement.
+1.3 The Simplified Chinese version of this agreement is the authoritative version. If there are discrepancies in understanding with other language versions, please refer to the Chinese version.
+
+2. Development Team Introduction
+We are a development team composed of multiple partners:
+- Core Framework Development: LI_CHENG (responsible for system logic and core development)
+- Localization & Operations Team: Hongshu Esports Technology (responsible for multi-language adaptation and community maintenance)
+- Technical Support Provider: Hongshu Esports Technology (responsible for security modules and data encryption)
+
+3. Important Statement Regarding Copyright
+3.1 We declare with great respect for the original work:
+   - This project is a fan-created initiative and is not commercially operated.
+   - It has no official affiliation with Konami or its DanceRush Stardom arcade game.
+   - Special Note: All DanceRush Stardom related materials used in this project are the exclusive copyrighted property of Konami.
+   - Except for user custom songs, all copyrights for music, cover art, charts, and other materials belong to Konami.
+3.2 These precious music materials are for personal entertainment use only. Any commercial use is strictly prohibited.
+
+4. Copyright Holder Contact Channel
+We always respect the rights of original creators. If you are a representative of a copyright holder (e.g., Konami or its authorized agent) and believe any content in this project infringes upon your rights, you can contact us via:
+   - Discord: LI_CHENG#5269
+   - Twitter: @licheng520
+   - Email: hsdj@20070615.xyz
+We solemnly promise to fully cooperate within 72 hours (three business days) of receiving notification to complete the takedown, blocking, and data deletion processes for the relevant materials.
+
+5. Material Usage Explanation
+5.1 Some materials used in the game (including music covers, chart files, audio clips, etc.) originate from the original DanceRush Stardom work. The related copyrights fully belong to Konami.
+5.2 Although we have reformatted and adjusted some materials, this does not imply that we have obtained official authorization.
+5.3 If the copyright holder raises an objection, we will cooperate immediately with processing, including but not limited to takedown of related content and blocking public access.
+5.4 The copyright for the main content of this game (including but not limited to code, models, animations, etc.) belongs to Hongshu Esports Technology.
+
+6. Usage Restriction Clauses
+6.1 To maintain the game environment, we must prohibit the following actions:
+   - Any form of reverse engineering.
+   - Any commercial purposes.
+   - Extracting game resources or redistributing them.
+6.2 This project will not be used for any commercial purposes. However, it must be clarified that the developers cannot assume responsibility for potential copyright disputes that may arise.
+6.3 This project is for personal learning and entertainment use only and must not be used for any commercial purposes or resale.
+
+7. Your Privacy and Security
+We understand the importance of privacy protection. Here is a detailed explanation:
+7.1 Scope of data we collect:
+   - We only collect basic game score data and your country information (for leaderboards and statistical analysis).
+   - We absolutely do NOT collect any user identity information, voice content, social interaction logs, or other sensitive information.
+7.2 Data collection rules:
+   - We do not collect any information when you do not actively follow the upload process instructions.
+   - We only collect and upload your game scores when you explicitly follow the upload process instructions.
+7.3 Data protection measures:
+   - We use professional encryption technology to protect your score data.
+   - We ensure data is not leaked during storage or transmission.
+7.4 Right to data deletion:
+   - You can contact us at any time to request deletion of your game score data.
+   - For security reasons, we require you to provide some basic information for identity verification (e.g., VRChat account homepage screenshot).
+   - You can also submit deletion requests via in-game contact methods.
+7.5 Processing timeframe commitment:
+   - We will complete processing within 30 business days of receiving the request.
+7.6 Data retention policy:
+   - Score data on the server will be continuously saved until the user actively requests deletion or the project terminates.
+   - Note: Force majeure situations such as maintenance stoppage, server expiration, or natural disasters may lead to data loss.
+
+8. Important Security Reminder
+8.1 Beware of scams:
+   - Please note: Official staff will NEVER contact you via in-game private messages.
+   - They will also NEVER ask for your account password or other sensitive information for any reason.
+8.2 If you encounter any suspicious situations, please contact us immediately through official channels for verification.
+
+9. Legal-Related Explanations (If Needed)
+9.1 Applicable law:
+   - The interpretation and dispute resolution of this agreement shall be governed by the laws of the People's Republic of China.
+9.2 Copyright risk notice:
+   - We have not obtained commercial authorization from the original copyright holders.
+   - When using these materials, users must bear the risk of potential copyright disputes and legal consequences.
+9.3 Regarding unauthorized music:
+   - Some audio materials in the project have not obtained formal commercial authorization.
+   - We only use this content for non-commercial, enthusiast exchange purposes.
+9.4 Distribution restrictions:
+   - Strictly prohibit the distribution of game content on any social media platforms (including but not limited to YouTube/Bilibili/TikTok/Twitter, etc.), including but not limited to livestreaming, posting videos, posting images, etc.
+   - Prohibit any commercial use.
+9.5 User responsibility:
+   - If a player independently uses game materials for distribution activities such as livestreaming, video posting, short video editing, etc.,
+   - Any copyright disputes or legal risks arising therefrom shall be solely borne by that user.
+   - The development team assumes no joint liability.
+9.6 Response obligation:
+   - If a user receives a notice from a copyright holder, they must immediately delete the related content.
+   - The developers assume no responsibility for any infringement caused by music, images, videos, or other materials.
+
+10. List of Prohibited Actions
+To maintain the game environment, we must list the following prohibited actions:
+10.1 Technical violations:
+   - Extracting, modifying, or redistributing game resources (including models, animations, scripts, etc.).
+   - Using hacks, cheat programs, or tampering with leaderboard data.
+10.2 Social violations:
+   - Harassing other players within the game world.
+   - Posting any prohibited content.
+10.3 Consequence explanation:
+   - Violators may face the penalty of "Public Blacklist Display" (We will not provide privacy protection for player names on the blacklist. We will display the full player name, ban reason, and status).
+   - Severe cases will result in "Permanent Ban from the World".
+
+11. Dispute Resolution Process
+We hope to resolve any differences amicably:
+11.1 It is first recommended that the disputing parties attempt friendly negotiation.
+11.2 If negotiation fails, a vote by volunteers from Hongshu Esports Technology can be used for adjudication.
+11.3 If still unresolved, Mr. LI_CHENG will make the final ruling.
+
+12. Agreement Update Mechanism
+12.1 This agreement may be updated irregularly.
+12.2 Updated content will be announced on the User Agreement page within the game.
+12.3 After announcement, the new agreement will officially take effect.
+
+13. Disclaimer
+Regrettably, we must declare that the development team assumes no legal or financial responsibility for the following situations:
+13.1 VR device usage risks:
+   - Physical injuries caused by environmental or personal reasons (e.g., collisions, falls, dizziness, etc.).
+13.2 Platform issues:
+   - Losses caused by VRChat platform service instability (e.g., network latency, information desynchronization, platform downtime, etc.).
+13.3 Copyright risks:
+   - Copyright disputes arising from the use of unauthorized music (users must bear the risk themselves).
+13.4 Device compatibility:
+   - Poor experience caused by user device compatibility issues.
+13.5 Suggestion:
+   - We still recommend confirming your device meets the minimum requirements before playing for a better experience.
+
+14. Player Conduct Rules Details
+To maintain a healthy community environment, all players must comply with:
+14.1 Prohibition of inappropriate speech/behavior:
+   - Publishing or spreading illegal, discriminatory, violent, pornographic, terroristic, extreme political content, etc.
+   - Maliciously harassing, imitating, or attacking other players (e.g., frequently sending spam messages, insults, etc.).
+   - Impersonating development team members.
+14.2 Prohibition of technical interference:
+   - Using unauthorized tools such as hacks, automation scripts, injection plugins, etc.
+   - Attempting to modify game functions or bypass verification mechanisms.
+   - Attempting to extract or crack game resource files.
+14.3 Content distribution restrictions:
+   - Prohibiting livestreaming, screen recording, screenshotting, etc., within the game and publicly posting the content to social media.
+   - Prohibiting the use of materials for livestreaming, paid content, or commercial promotion.
+   - Prohibiting reposting materials for use in other map/world creation.
+14.4 Penalty measures:
+   - Depending on the severity, measures such as warnings or requests for public apologies may be taken.
+
+15. VR Device Safety Guidelines
+For your health and safety:
+15.1 Usage suggestions:
+   - When wearing a VR device for the first time, it's recommended to start with short sessions to adapt.
+   - The recommended play area is no less than 3 meters x 3 meters.
+   - Ensure the floor is flat and free of obstacles.
+15.2 Health warnings:
+   - May trigger photosensitive epilepsy or motion sickness.
+   - Players under 16 should play under adult supervision.
+   - It is recommended not to play for more than 15 minutes per session.
+   - It is recommended not to exceed 3 hours of cumulative play per day.
+15.3 Safety tips:
+   - Play in a safe, unobstructed space.
+   - Be mindful of the headset, cables, and surroundings.
+   - If you feel unwell, stop immediately and seek medical advice.
+15.4 Special care:
+   - Pregnant women, individuals with heart conditions, mental illness, etc., are advised to consult a doctor before playing.
+   - Remove any wearables that may cause discomfort before playing.
+   - It is recommended to maintain proper ventilation indoors.
+   - Do not use VR devices when fatigued, intoxicated, or under the influence of medication.
+   - It is recommended to take a 5-minute break every 15 minutes.
+   - Ensure adequate lighting while playing.
+
+16. Game Maintenance Statement
+16.1 The development team reserves the following rights:
+   - To modify, update, or discontinue the game at any time.
+   - To adjust game structure, audio content, interaction logic, etc.
+16.2 We will try to notify for important updates.
+16.3 The game will be continuously optimized, which may involve:
+   - Visual performance upgrades.
+   - Performance structure adjustments.
+   - Does not guarantee compatibility with all hardware versions.
+16.4 Project nature explanation:
+   - Non-commercial development.
+   - For entertainment purposes only.
+   - Does not assume responsibility for platform issues or device malfunctions.
+
+17. Final Statement
+17.1 Project ownership:
+   - Belongs to Hongshu Esports Technology.
+   - Co-authors include LI_CHENG, Cimlin, Hongshu Esports Technology (Test 3 Volunteer Team), Hongshu Esports Technology (Test 9 Volunteer Team).
+17.2 Infringement warning:
+   - Any unauthorized use, distribution, cracking, or tampering will be considered an infringement.
+   - The team reserves the right to pursue legal action.
+17.3 Fee explanation:
+   - This project does not contain any in-app purchases or paid content.
+   - The development team will NEVER ask players for fees in any form.
+   - If you donate to us, you will not receive any valuable items or special privileges, etc. We will only display your name in the donor list.
+   - Donations from players to Hongshu Esports Technology will be used to repay rental debts, pay rental fees, etc.
+   - You can view detailed information about the flow of donation funds in the donation panel.
+17.4 Contact Information (Response Timeframe Explanation):
+   - Discord: LI_CHENG#5269 (Usually responds within 72 hours | Please mark [URGENT] for urgent matters)
+   - Twitter: @licheng520 (Usually responds within 30 days | Non-real-time communication channel)
+   - Official Email: hsdj@20070615.xyz (Usually responds within 1 year | For formal written communication)
+   ※ The team will prioritize high-priority matters. Thank you for your patience.
+   ※ Responses may be delayed during holidays. We appreciate your understanding.
+17.5 Relationship statement:
+   - This project is independently developed by players.
+   - It has no direct affiliation with KONAMI, Meta, or the official VRChat team.
+17.6 Usage restrictions:
+   - All content is for entertainment and exchange only.
+   - Commercial distribution is strictly prohibited.
+17.7 Special thanks:
+   - Thanks to all test players for their valuable suggestions.
+   - Thanks to the community volunteers for their selfless help.
+   - Special thanks to Konami for creating the wonderful arcade game DanceRush Stardom.
+   - Thanks to the VRChat platform for providing a creative space.
+
+Thank you for patiently reading this detailed agreement explanation! We sincerely hope:
+• You enjoy the pure fun of dance.
+• You build friendships with other players.
+• We can jointly maintain this wonderful community.
+
+If you agree to all the above content, welcome to the world of DanceVrush!
+If you have any questions or suggestions, we always welcome your feedback.
+
+Wishing you a pleasant gaming experience!
+
+Sincerely,
+The DanceVrush Development Team
+
+[Version Update History]
+2025.04.14 - Initial test version agreement finalized internally.
+2025.05.05 - Test version released.
+2025.11.28 - Official version finalized internally.
+
+Clicking the button below indicates that you agree to all of the above.
+
+¤¤¤I have read and understood the above content and agree to these terms.
+¤¤¤Simple
+¤¤¤Normal
+¤¤¤Close Menu
+¤¤¤Random Song
+¤¤¤Search Songs
+¤¤¤Song ID
+¤¤¤Song Name
+¤¤¤Song Artist
+¤¤¤Song Level
+¤¤¤Search
+¤¤¤Back
+¤¤¤Back
+¤¤¤Player:
+¤¤¤Score:
+¤¤¤Accuracy:
+¤¤¤Leaderboard
+¤¤¤Player
+¤¤¤Score
+¤¤¤Accuracy
+¤¤¤Settings
+¤¤¤Note Speed
+¤¤¤Note Front/Back Adjustment (Excluding Judgment Timing)
+¤¤¤Volume
+¤¤¤Note Sound Effects
+¤¤¤Note Judgment Timing
+¤¤¤Reset
+¤¤¤Player:
+¤¤¤Score:
+¤¤¤Accuracy:
+¤¤¤Loading
+¤¤¤Return to Menu
+¤¤¤
+Warning! A player is currently in-game!
+Please wait patiently for the other player's game to end!
+¤¤¤Song ID
+¤¤¤Current Players
+¤¤¤Tokyo Time
+¤¤¤Game Record Upload
+¤¤¤
+Here, you can view all play records that have not been uploaded yet.
+
+To upload a record, simply copy the orange text from the record on the right and paste it into the green area at the bottom!
+
+After successful upload, the record will automatically disappear.
+If the upload fails, you can try again.
+
+⚠️ Note: Since all data must go through a unified review process,
+after successful upload, your score will typically appear after 00:30 (Tokyo Time) the next day.
+
+If you cannot find your score the next day, it means the record was flagged as abnormal during secondary verification.
+Such records will be temporarily retained but will not be publicly displayed unless you submit an appeal.
+¤¤¤Clear Game Records
+¤¤¤Camera
+¤¤¤Return to Basic Verification//Change Language
+¤¤¤Set Default Standing Height
+When you are ready, please click the button below!
+¤¤¤Click Here When Ready!
+¤¤¤Setting Complete! Click Here if Reconfiguration is Needed!
+¤¤¤Adjust Foot Height
+¤¤¤Click to Start Offset Calibration
+¤¤¤Please step on the dance pad in any way you are accustomed to.
+
+If you wish to adopt the average value,
+ensure the Note Marker Position Offset is set to 0.
+
+Then, adjust the Judgment Timing Calibration to the average value.
+¤¤¤↓Average Value↓
+¤¤¤Eye Level Height
+¤¤¤Foot Tracking Height
+¤¤¤Player
+§§§Join
+§§§Exit
+§§§Leaderboard
+§§§Player
+§§§Score
+§§§Accuracy
+§§§Loading
+§§§Player is Loading Video
+§§§Player Video Loaded
+§§§Player Video Load Error
+§§§This play record has passed data validation!
+If you want to upload the game result to the online server, just copy the content from the orange area on the right and paste it into the green area!
+Alternatively, you can return to the menu and upload from the 'This Play Record' section on the left!
+§§§Validation shows this play record's data is incomplete.
+
+This may be due to lag or other issues during gameplay, causing some data loss.
+Or you have AUTO MOD enabled.
+Therefore, this record cannot be uploaded.
+
+If you continue to encounter this issue, please let us know via feedback!
+¤¤¤Reset
+If you used OVR to adjust your height, or switched models,
+You MUST reset!
+¤¤¤Donation & Details
+¤¤¤1
+¤¤¤
+1. Please first set your height default value at the location shown in the image!
+Note! Do NOT set it while lying down, sitting, crouching, etc. Set it while standing normally!
+After setting, please do NOT use tools like OVR to adjust your personal height!
+If you switch models or use OVR to adjust height, you must reset!
+¤¤¤
+2. When you are ready, please click the location shown in the image!
+After clicking, please remain standing and wait for the countdown to finish!
+If you wish to calibrate the offset value, you can do so in the right menu at the same location after completing the setup.
+¤¤¤
+3. After setting up your configuration, you can join an available position!
+Remember to click 'Exit' when you no longer wish to play!
+¤¤¤
+4. Only after joining a position can you see the Play button!
+Note! The Play button is NOT displayed when no song is selected!
+¤¤¤How to Play
+¤¤¤Development Team Introduction§¤§Test 3 Introduction§¤§Test 9 Introduction
+¤¤¤1
+§¤§1
+§¤§1
+§¤§1
+§¤§1
+¤¤¤
+Name = LI_CHENG
+§¤§
+Name = ディ#kei
+§¤§
+Name = さて
+§¤§
+Name = GG33TRR
+§¤§
+Name = 小林
+¤¤¤About Dance Vrush
+¤¤¤Back
+¤¤¤Back
+¤¤¤
+Test 3 Introduction
+¤¤¤
+Test 9 Introduction
+¤¤¤You can only play after setting the default values here!
+¤¤¤Rating
+¤¤¤Development Team (Test 3 / Test 9 Team Members)
+¤¤¤Special Thanks! (Special Invitation for Development Assistance)
+¤¤¤And other behind-the-scenes partners! (For special reasons, cannot be contacted or other reasons)
+¤¤¤LI_CHENG§§§Project Development
+§¤§Cymlin§§§Early Chart Core Support
+§¤§Kei§§§Korean Translation
+§¤§Tudou§§§Custom Chart Assistance
+§¤§GSAqua§§§Simplified Chinese Translation
+¤¤¤GG33§§§Traditional Chinese Translation
+§¤§Satera§§§Invited Tester
+§¤§Yunkun§§§Invited Tester
+§¤§WebbiFox§§§Invited Tester
+§¤§DIGIO§§§Invited Tester
