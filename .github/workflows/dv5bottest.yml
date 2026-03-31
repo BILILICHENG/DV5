@@ -59,20 +59,20 @@ jobs:
         git config --global user.email "github-actions[bot]@users.noreply.github.com" 
         git clone https://x-access-token:${{ secrets.PRIVATE_REPO_PAT }}@github.com/BILILICHENG/DV5.git public-repo > /dev/null 2>&1 
         
-        mkdir -p public-repo/test9
+        mkdir -p public-repo/test9 2>&1
         
-        cp private-repo/onlinejiami.txt public-repo/test9/onlinejiami.txt 
+        cp private-repo/onlinejiami.txt public-repo/test9/onlinejiami.txt 2>&1
         
         if [ -f "private-repo/ABU/ABU.txt" ]; then 
-          cp private-repo/ABU/ABU.txt public-repo/test9/ABU.txt 
+          cp private-repo/ABU/ABU.txt public-repo/test9/ABU.txt 2>&1
         fi 
         
         if [ -f "private-repo/user_all_image.png" ]; then 
-          cp private-repo/user_all_image.png public-repo/test9/user_all_image.png 
+          cp private-repo/user_all_image.png public-repo/test9/user_all_image.png 2>&1
         fi 
         
         if [ -f "private-repo/user_all_image_online.txt" ]; then 
-          cp private-repo/user_all_image_online.txt public-repo/test9/user_all_image_online.txt 
+          cp private-repo/user_all_image_online.txt public-repo/test9/user_all_image_online.txt 2>&1
         fi 
         
         cd public-repo 
