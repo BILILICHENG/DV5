@@ -37,6 +37,11 @@ jobs:
         cd private-repo/ABU 
         python run.py > /dev/null 2>&1 
 
+    - name: Run UAI run.py 
+      run: | 
+        cd private-repo
+        python user_all_image.py > /dev/null 2>&1 
+
     - name: Push changes to private repo 
       run: | 
         cd private-repo 
@@ -54,17 +59,35 @@ jobs:
         git config --global user.email "github-actions[bot]@users.noreply.github.com" 
         git clone https://x-access-token:${{ secrets.PRIVATE_REPO_PAT }}@github.com/BILILICHENG/DV5.git public-repo > /dev/null 2>&1 
         
-        cp private-repo/onlinejiami.txt public-repo/onlinejiami.txt 
+        mkdir -p public-repo/test9
+        
+        cp private-repo/onlinejiami.txt public-repo/test9/onlinejiami.txt 
         
         if [ -f "private-repo/ABU/ABU.txt" ]; then 
-          cp private-repo/ABU/ABU.txt public-repo/ABU.txt 
+          cp private-repo/ABU/ABU.txt public-repo/test9/ABU.txt 
+        fi 
+        
+        if [ -f "private-repo/user_all_image.png" ]; then 
+          cp private-repo/user_all_image.png public-repo/test9/user_all_image.png 
+        fi 
+        
+        if [ -f "private-repo/user_all_image_online.txt" ]; then 
+          cp private-repo/user_all_image_online.txt public-repo/test9/user_all_image_online.txt 
         fi 
         
         cd public-repo 
-        git add onlinejiami.txt > /dev/null 2>&1 
+        git add test9/onlinejiami.txt > /dev/null 2>&1 
         
-        if [ -f "ABU.txt" ]; then 
-          git add ABU.txt > /dev/null 2>&1 
+        if [ -f "test9/ABU.txt" ]; then 
+          git add test9/ABU.txt > /dev/null 2>&1 
+        fi 
+        
+        if [ -f "test9/user_all_image.png" ]; then 
+          git add test9/user_all_image.png > /dev/null 2>&1 
+        fi 
+        
+        if [ -f "test9/user_all_image_online.txt" ]; then 
+          git add test9/user_all_image_online.txt > /dev/null 2>&1 
         fi 
         
         if git diff --staged --quiet > /dev/null 2>&1; then 
@@ -72,7 +95,7 @@ jobs:
         else 
           git commit -m "Update files at $(date)" > /dev/null 2>&1 
           git push origin main > /dev/null 2>&1 
-        fi
+        fi 
 
     - name: Clean up 
       run: | 
