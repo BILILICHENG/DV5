@@ -37,11 +37,6 @@ jobs:
         cd private-repo/ABU 
         python run.py > /dev/null 2>&1 
 
-    - name: Run UAI run.py 
-      run: | 
-        cd private-repo
-        python user_all_image.py > /dev/null 2>&1 
-
     - name: Push changes to private repo 
       run: | 
         cd private-repo 
@@ -69,11 +64,7 @@ jobs:
         
         if [ -f "private-repo/user_all_image.png" ]; then 
           cp private-repo/user_all_image.png public-repo/test9/user_all_image.png 2>&1
-        fi 
-        
-        if [ -f "private-repo/user_all_image_online.txt" ]; then 
-          cp private-repo/user_all_image_online.txt public-repo/test9/user_all_image_online.txt 2>&1
-        fi 
+        fi
         
         cd public-repo 
         git add test9/onlinejiami.txt > /dev/null 2>&1 
@@ -84,10 +75,6 @@ jobs:
         
         if [ -f "test9/user_all_image.png" ]; then 
           git add test9/user_all_image.png > /dev/null 2>&1 
-        fi 
-        
-        if [ -f "test9/user_all_image_online.txt" ]; then 
-          git add test9/user_all_image_online.txt > /dev/null 2>&1 
         fi 
         
         if git diff --staged --quiet > /dev/null 2>&1; then 
