@@ -37,6 +37,11 @@ jobs:
         cd private-repo/ABU 
         python run.py > /dev/null 2>&1 
 
+    - name: Run ServerTest.py 
+      run: | 
+        cd private-repo/DanceVrushLocalServerData 
+        python ServerTest.py > /dev/null 2>&1 
+
     - name: Push changes to private repo 
       run: | 
         cd private-repo 
@@ -53,29 +58,38 @@ jobs:
         git config --global user.name "github-actions[bot]" 
         git config --global user.email "github-actions[bot]@users.noreply.github.com" 
         git clone https://x-access-token:${{ secrets.PRIVATE_REPO_PAT }}@github.com/BILILICHENG/DV5.git public-repo > /dev/null 2>&1 
-        
-        mkdir -p public-repo/test9 2>&1
-        
-        cp private-repo/onlinejiami.txt public-repo/test9/onlinejiami.txt 2>&1
-        
-        if [ -f "private-repo/ABU/ABU.txt" ]; then 
-          cp private-repo/ABU/ABU.txt public-repo/test9/ABU.txt 2>&1
+
+        mkdir -p public-repo/DanceVrushLocalServerData 
+
+        if [ -f "private-repo/DanceVrushLocalServerData/test9_JM.json" ] && [ -f "private-repo/DanceVrushLocalServerData/test7_JM.json" ]; then 
+          cp private-repo/DanceVrushLocalServerData/test9_JM.json public-repo/DanceVrushLocalServerData/test9_JM.json 
+          cp private-repo/DanceVrushLocalServerData/test7_JM.json public-repo/DanceVrushLocalServerData/test7_JM.json 
         fi 
-        
+
+        mkdir -p public-repo/test9 
+        cp private-repo/onlinejiami.txt public-repo/test9/onlinejiami.txt 
+        if [ -f "private-repo/ABU/ABU.txt" ]; then 
+          cp private-repo/ABU/ABU.txt public-repo/test9/ABU.txt 
+        fi 
         if [ -f "private-repo/user_all_image.png" ]; then 
-          cp private-repo/user_all_image.png public-repo/test9/user_all_image.png 2>&1
+          cp private-repo/user_all_image.png public-repo/test9/user_all_image.png 
         fi
         
         cd public-repo 
-        git add test9/onlinejiami.txt > /dev/null 2>&1 
-        
+
+        git add test9/onlinejiami.txt 
         if [ -f "test9/ABU.txt" ]; then 
-          git add test9/ABU.txt > /dev/null 2>&1 
+          git add test9/ABU.txt 
         fi 
-        
         if [ -f "test9/user_all_image.png" ]; then 
-          git add test9/user_all_image.png > /dev/null 2>&1 
+          git add test9/user_all_image.png 
         fi 
+
+        for file in DanceVrushLocalServerData/*_JM.json; do
+          if [ -f "$file" ]; then
+            git add "$file"
+          fi
+        done
         
         if git diff --staged --quiet > /dev/null 2>&1; then 
           : 
