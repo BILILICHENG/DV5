@@ -67,7 +67,7 @@ jobs:
         fi 
 
         mkdir -p public-repo/test9 
-        cp private-repo/onlinejiami.txt public-repo/test9/onlinejiami.txt 
+        cp private-repo/onlineindex_jiami.txt public-repo/test9/onlineindex_jiami.txt 
         if [ -f "private-repo/ABU/ABU.txt" ]; then 
           cp private-repo/ABU/ABU.txt public-repo/test9/ABU.txt 
         fi 
@@ -77,7 +77,7 @@ jobs:
         
         cd public-repo 
 
-        git add test9/onlinejiami.txt 
+        git add test9/onlineindex_jiami.txt 
         if [ -f "test9/ABU.txt" ]; then 
           git add test9/ABU.txt 
         fi 
