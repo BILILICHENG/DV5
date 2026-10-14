@@ -3,9 +3,9 @@ name: DV5BotRun123
 on: 
   schedule: 
     - cron: '0 15 * * *'
-    - cron: '0 21 * * *'
-    - cron: '0 3 * * *'
-    - cron: '0 9 * * *'
+    #- cron: '0 21 * * *'
+    #- cron: '0 3 * * *'
+    #- cron: '0 9 * * *'
   workflow_dispatch:
 
 jobs: 
